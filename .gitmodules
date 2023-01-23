@@ -1,3 +1,6 @@
 [submodule "source/playnite-plugincommon"]
 	path = source/playnite-plugincommon
 	url = https://github.com/Lacro59/playnite-plugincommon.git
+[submodule "include/playnite-plugincommon"]
+	path = include/playnite-plugincommon
+	url = https://github.com/CanRanBan/PlayniteExtensionFork-Module-Lacro59-PluginCommon.git
