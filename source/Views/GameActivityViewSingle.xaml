@@ -169,6 +169,20 @@
                                                SortingEnable="True" SortingDefaultDataName="GameLastActivity">
                     <ListView.View>
                         <GridView>
+                            <GridViewColumn>
+                                <GridViewColumnHeader Content="{DynamicResource LOCActionsLabel}" />
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal">
+                                            <Button Click="PART_Delete_Click" Content="&#x1f5d9;" Tag="{Binding GameLastActivity}" />
+
+                                            <Button Content="&#xef10;" Margin="5,0,0,0" Tag="{Binding GameLastActivity}"
+                                                    Click="PART_BtEdit_Click" FontFamily="{DynamicResource FontIcoFont}"  />
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+
                             <GridViewColumn Width="150">
                                 <GridViewColumnHeader Content="{DynamicResource LOCGameActivityLvGamesLastActivity}" />
                                 <GridViewColumn.CellTemplate>
@@ -455,20 +469,6 @@
                                                 </Style>
                                             </Label.Style>
                                         </Label>
-                                    </DataTemplate>
-                                </GridViewColumn.CellTemplate>
-                            </GridViewColumn>
-
-                            <GridViewColumn>
-                                <GridViewColumnHeader Content="{DynamicResource LOCActionsLabel}" />
-                                <GridViewColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <StackPanel Orientation="Horizontal">
-                                            <Button Click="PART_Delete_Click" Content="&#x1f5d9;" Tag="{Binding GameLastActivity}" />
-
-                                            <Button Content="&#xef10;" Margin="5,0,0,0" Tag="{Binding GameLastActivity}"
-                                                    Click="PART_BtEdit_Click" FontFamily="{DynamicResource FontIcoFont}"  />
-                                        </StackPanel>
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>
