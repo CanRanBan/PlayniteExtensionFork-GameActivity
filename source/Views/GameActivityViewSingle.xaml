@@ -92,7 +92,7 @@
                             <TextBlock Name="PART_RecentActivity" Text="any time" Grid.Column="6" Grid.Row="0"
                                        Foreground="{DynamicResource TextBrush}" VerticalAlignment="center" />
 
-                            
+
                             <Label Content="{DynamicResource LOCGameActivityFirstSession}"
                                    Grid.Column="0" Grid.Row="2" VerticalAlignment="center" />
                             <TextBlock Name="PART_FirstSession" Text="any time" Grid.Column="2" Grid.Row="2"
@@ -103,8 +103,8 @@
                             <TextBlock Name="PART_FirstSessionElapsedTime" Text="any time" Grid.Column="6" Grid.Row="2"
                                        Foreground="{DynamicResource TextBrush}" VerticalAlignment="center" />
 
-                            
-                            <Label Content="{DynamicResource LOCGameActivityLastSession}" 
+
+                            <Label Content="{DynamicResource LOCGameActivityLastSession}"
                                    Grid.Column="0" Grid.Row="4" VerticalAlignment="center" />
                             <TextBlock Name="PART_LastSession" Text="any time" Grid.Column="2" Grid.Row="4"
                                        Foreground="{DynamicResource TextBrush}" VerticalAlignment="center" />
@@ -183,11 +183,12 @@
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>
 
-                            <GridViewColumn Width="150">
+                            <GridViewColumn Width="150"
+                                            DisplayMemberBinding="{Binding GameLastActivity, Converter={StaticResource LocalDateTimeConverter}}">
                                 <GridViewColumnHeader Content="{DynamicResource LOCGameActivityLvGamesLastActivity}" />
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
-                                        <Label Content="{Binding GameLastActivity, Converter={StaticResource LocalDateTimeConverter}}" 
+                                        <Label Content="{Binding GameLastActivity, Converter={StaticResource LocalDateTimeConverter}}"
                                                VerticalAlignment="Stretch" Style="{DynamicResource ListExtendStyleLabel}" />
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
@@ -220,7 +221,7 @@
                                 <GridViewColumnHeader Content="{DynamicResource LOCIsPlayAction}" Name="lvGamesPlayActionHeader" />
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
-                                        <Label Content="{Binding GameActionName}" 
+                                        <Label Content="{Binding GameActionName}"
                                                VerticalAlignment="Stretch" Style="{DynamicResource ListExtendStyleLabel}" />
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
