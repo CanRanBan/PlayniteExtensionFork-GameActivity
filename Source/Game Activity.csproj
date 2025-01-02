@@ -78,8 +78,6 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Common\HWiNFODumper.cs" />
-    <Compile Include="Common\HWiNFOGadget.cs" />
     <Compile Include="Controls\GanttControl.xaml.cs">
       <DependentUpon>GanttControl.xaml</DependentUpon>
     </Compile>
@@ -391,9 +389,6 @@
     <None Include="icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\OpenHardwareMonitorLib.dll" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\include\playnite-plugincommon\CommonPluginsResources\CommonPluginsResources.csproj">
