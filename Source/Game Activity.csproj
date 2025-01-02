@@ -40,9 +40,6 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="akr.WPF.Controls.ColorPicker">
-      <HintPath>..\include\playnite-plugincommon\CommonPluginsResources\Resources\akr.WPF.Controls.ColorPicker.dll</HintPath>
-    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -91,47 +88,6 @@
     <Compile Include="Models\RunningActivity.cs" />
     <Compile Include="Models\StoreColor.cs" />
     <Compile Include="Models\WarningData.cs" />
-    <Compile Include="..\include\playnite-plugincommon\CommonPluginsControls\Controls\ComboBoxRemovable.xaml.cs">
-      <DependentUpon>ComboBoxRemovable.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="..\include\playnite-plugincommon\CommonPluginsControls\Controls\ControlPickerGradient.xaml.cs">
-      <DependentUpon>ControlPickerGradient.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="..\include\playnite-plugincommon\CommonPluginsControls\Controls\TextBlockTrimmed.xaml.cs">
-      <DependentUpon>TextBlockTrimmed.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="..\include\playnite-plugincommon\CommonPluginsControls\Controls\TextBlockWithIcon.xaml.cs">
-      <DependentUpon>TextBlockWithIcon.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="..\include\playnite-plugincommon\CommonPluginsControls\LiveChartsCommon\CustomerForSingle.cs" />
-    <Compile Include="..\include\playnite-plugincommon\CommonPluginsControls\LiveChartsCommon\CustomerForTime.cs" />
-    <Compile Include="..\include\playnite-plugincommon\CommonPluginsControls\LiveChartsCommon\CustomerToolTipForMultipleSingle.xaml.cs">
-      <DependentUpon>CustomerToolTipForMultipleSingle.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="..\include\playnite-plugincommon\CommonPluginsControls\LiveChartsCommon\CustomerToolTipForMultipleTime.xaml.cs">
-      <DependentUpon>CustomerTooltipForMultipleTime.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="..\include\playnite-plugincommon\CommonPluginsControls\LiveChartsCommon\CustomerToolTipForSingle.xaml.cs">
-      <DependentUpon>CustomerTooltipForSingle.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="..\include\playnite-plugincommon\CommonPluginsControls\LiveChartsCommon\CustomerToolTipForTime.xaml.cs">
-      <DependentUpon>CustomerToolTipForTime.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="..\include\playnite-plugincommon\CommonPluginsControls\PlayniteControls\NumericBox.xaml.cs">
-      <DependentUpon>NumericBox.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="..\include\playnite-plugincommon\CommonPluginsControls\PlayniteControls\SearchBox.xaml.cs">
-      <DependentUpon>SearchBox.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="..\include\playnite-plugincommon\CommonPluginsControls\Views\ListDataWithoutGame.xaml.cs">
-      <DependentUpon>ListDataWithoutGame.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="..\include\playnite-plugincommon\CommonPluginsControls\Views\OptionsDownloadData.xaml.cs">
-      <DependentUpon>OptionsDownloadData.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="..\include\playnite-plugincommon\CommonPluginsControls\Views\TransfertData.xaml.cs">
-      <DependentUpon>TransfertData.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Services\ActivityDatabase.cs" />
     <Compile Include="Views\GameActivityAddTime.xaml.cs">
       <DependentUpon>GameActivityAddTime.xaml</DependentUpon>
@@ -201,58 +157,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="..\include\playnite-plugincommon\CommonPluginsControls\Controls\ComboBoxRemovable.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\include\playnite-plugincommon\CommonPluginsControls\Controls\ControlPickerGradient.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\include\playnite-plugincommon\CommonPluginsControls\Controls\TextBlockTrimmed.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\include\playnite-plugincommon\CommonPluginsControls\Controls\TextBlockWithIcon.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\include\playnite-plugincommon\CommonPluginsControls\LiveChartsCommon\CustomerToolTipForMultipleSingle.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\include\playnite-plugincommon\CommonPluginsControls\LiveChartsCommon\CustomerTooltipForMultipleTime.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\include\playnite-plugincommon\CommonPluginsControls\LiveChartsCommon\CustomerTooltipForSingle.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\include\playnite-plugincommon\CommonPluginsControls\LiveChartsCommon\CustomerToolTipForTime.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\include\playnite-plugincommon\CommonPluginsControls\PlayniteControls\NumericBox.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\include\playnite-plugincommon\CommonPluginsControls\PlayniteControls\SearchBox.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\include\playnite-plugincommon\CommonPluginsControls\Views\ListDataWithoutGame.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\include\playnite-plugincommon\CommonPluginsControls\Views\OptionsDownloadData.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\include\playnite-plugincommon\CommonPluginsControls\Views\TransfertData.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="Views\GameActivityAddTime.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -292,12 +196,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\include\playnite-plugincommon\CommonPluginsResources\CommonPluginsResources.csproj">
-      <Project>{4effe926-9c64-4750-a399-f344710edc09}</Project>
-      <Name>CommonPluginsResources</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\chart-646.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -325,8 +223,6 @@
       <HintPath>$(Playnite_Dir)\Playnite.SDK.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <Import Project="..\include\playnite-plugincommon\CommonPluginsShared\CommonPluginsShared.projitems" Label="Shared" />
-  <Import Project="..\include\playnite-plugincommon\CommonPlayniteShared\CommonPlayniteShared.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="('$(Configuration)' == 'ReleasePack') AND ('$(Playnite_Toolbox_Dir)' != '') AND ('$(Playnite_Toolbox_TargetDir)' != '')">
     <Exec Command="%22$(Playnite_Toolbox_Dir)\Toolbox.exe%22 pack %22$(TargetDir.TrimEnd('\'))%22 %22$(Playnite_Toolbox_TargetDir)%22" />

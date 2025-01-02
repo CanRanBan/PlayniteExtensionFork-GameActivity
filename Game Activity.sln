@@ -1,15 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game Activity", "Source\Game Activity.csproj", "{4FDF1E89-5BC3-4C72-8FDA-0D580E7A5D5F}"
-EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CommonPluginsShared", "..\include\playnite-plugincommon\CommonPluginsShared\CommonPluginsShared.shproj", "{27E5D35B-F3CE-4A3F-9705-4564674615A5}"
-EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CommonPlayniteShared", "..\include\playnite-plugincommon\CommonPlayniteShared\CommonPlayniteShared.shproj", "{0D7DBC82-26AF-49AD-8ED5-0E11AA56BCE0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonPluginsResources", "..\include\playnite-plugincommon\CommonPluginsResources\CommonPluginsResources.csproj", "{4EFFE926-9C64-4750-A399-F344710EDC09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,23 +18,11 @@ Global
 		{4FDF1E89-5BC3-4C72-8FDA-0D580E7A5D5F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4FDF1E89-5BC3-4C72-8FDA-0D580E7A5D5F}.ReleasePack|Any CPU.ActiveCfg = ReleasePack|Any CPU
 		{4FDF1E89-5BC3-4C72-8FDA-0D580E7A5D5F}.ReleasePack|Any CPU.Build.0 = ReleasePack|Any CPU
-		{4EFFE926-9C64-4750-A399-F344710EDC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4EFFE926-9C64-4750-A399-F344710EDC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4EFFE926-9C64-4750-A399-F344710EDC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4EFFE926-9C64-4750-A399-F344710EDC09}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4EFFE926-9C64-4750-A399-F344710EDC09}.ReleasePack|Any CPU.ActiveCfg = ReleasePack|Any CPU
-		{4EFFE926-9C64-4750-A399-F344710EDC09}.ReleasePack|Any CPU.Build.0 = ReleasePack|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {72EBBC4E-7D1E-4CEE-BA81-34A74F678D08}
-	EndGlobalSection
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		..\include\playnite-plugincommon\CommonPlayniteShared\CommonPlayniteShared.projitems*{0d7dbc82-26af-49ad-8ed5-0e11aa56bce0}*SharedItemsImports = 13
-		..\include\playnite-plugincommon\CommonPluginsShared\CommonPluginsShared.projitems*{27e5d35b-f3ce-4a3f-9705-4564674615a5}*SharedItemsImports = 13
-		include\playnite-plugincommon\CommonPlayniteShared\CommonPlayniteShared.projitems*{4fdf1e89-5bc3-4c72-8fda-0d580e7a5d5f}*SharedItemsImports = 4
-		include\playnite-plugincommon\CommonPluginsShared\CommonPluginsShared.projitems*{4fdf1e89-5bc3-4c72-8fda-0d580e7a5d5f}*SharedItemsImports = 4
 	EndGlobalSection
 EndGlobal
