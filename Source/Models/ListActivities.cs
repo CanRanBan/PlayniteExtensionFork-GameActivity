@@ -1,4 +1,3 @@
-﻿using CommonPluginsControls.Controls;
 using GameActivity.Services;
 using Playnite.SDK.Data;
 using Playnite.SDK;

@@ -1,5 +1,3 @@
-﻿using CommonPluginsShared;
-using CommonPluginsShared.Converters;
 using GameActivity.Controls;
 using GameActivity.Models;
 using GameActivity.Services;

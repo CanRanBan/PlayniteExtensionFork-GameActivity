@@ -1,7 +1,3 @@
-﻿using CommonPluginsControls.Controls;
-using CommonPlayniteShared.Converters;
-using CommonPluginsShared;
-using CommonPluginsShared.Converters;
 using GameActivity.Controls;
 using GameActivity.Models;
 using GameActivity.Services;

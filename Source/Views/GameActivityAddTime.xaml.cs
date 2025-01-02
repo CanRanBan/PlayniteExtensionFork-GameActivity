@@ -1,6 +1,3 @@
-﻿using CommonPlayniteShared.Converters;
-using CommonPluginsShared;
-using CommonPluginsShared.Extensions;
 using GameActivity.Models;
 using GameActivity.Services;
 using Playnite.SDK;

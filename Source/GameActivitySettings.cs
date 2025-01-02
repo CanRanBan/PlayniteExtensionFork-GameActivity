@@ -7,7 +7,6 @@ using System;
 using Playnite.SDK.Models;
 using System.Windows.Media;
 using MoreLinq;
-using CommonPluginsShared.Extensions;
 
 namespace GameActivity
 {

@@ -10,7 +10,6 @@ using System.Windows.Controls;
 using System.Timers;
 using System.Diagnostics;
 using MSIAfterburnerNET.HM.Interop;
-using CommonPluginsShared;
 using System.Windows;
 using Playnite.SDK.Events;
 using GameActivity.Controls;
@@ -18,15 +17,10 @@ using GameActivity.Models;
 using GameActivity.Services;
 using GameActivity.Views;
 using System.Threading.Tasks;
-using CommonPluginsShared.PlayniteExtended;
 using System.Windows.Media;
-using CommonPluginsShared.Controls;
-using CommonPlayniteShared.Common;
-using CommonPluginsShared.Extensions;
 using System.Threading;
 using QuickSearch.SearchItems;
 using MoreLinq;
-using CommonPluginsControls.Views;
 
 namespace GameActivity
 {

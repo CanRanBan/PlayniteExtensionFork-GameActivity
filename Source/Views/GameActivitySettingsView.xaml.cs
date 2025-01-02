@@ -8,7 +8,6 @@ using System.Windows.Input;
 using System.Windows.Documents;
 using System.Diagnostics;
 using System.Windows.Media;
-using CommonPluginsShared;
 using GameActivity.Services;
 
 namespace GameActivity

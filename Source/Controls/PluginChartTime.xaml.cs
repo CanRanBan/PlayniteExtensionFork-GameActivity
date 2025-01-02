@@ -1,12 +1,3 @@
-﻿using CommonPluginsControls.Controls;
-using CommonPluginsControls.LiveChartsCommon;
-using CommonPlayniteShared.Common;
-using CommonPluginsShared.Extensions;
-using CommonPluginsShared;
-using CommonPluginsShared.Collections;
-using CommonPluginsShared.Controls;
-using CommonPluginsShared.Converters;
-using CommonPluginsShared.Interfaces;
 using GameActivity.Models;
 using GameActivity.Services;
 using LiveCharts;

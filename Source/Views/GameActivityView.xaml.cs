@@ -8,20 +8,14 @@ using System.Linq;
 using System.Windows.Controls.Primitives;
 using GameActivity.Models;
 using LiveCharts;
-using CommonPluginsShared;
 using LiveCharts.Wpf;
 using LiveCharts.Configurations;
 using System.Globalization;
 using System.Threading.Tasks;
-using CommonPlayniteShared.Converters;
-using CommonPluginsControls.LiveChartsCommon;
-using CommonPlayniteShared.Common;
 using GameActivity.Services;
 using GameActivity.Controls;
-using CommonPluginsControls.Controls;
 using System.Windows.Media;
 using System.IO;
-using CommonPluginsShared.Extensions;
 using Playnite.SDK.Data;
 
 namespace GameActivity.Views

@@ -1,5 +1,3 @@
-﻿using CommonPlayniteShared.Common;
-using CommonPluginsShared;
 using GameActivity.Models;
 using GameActivity.Services;
 using Playnite.SDK.Models;

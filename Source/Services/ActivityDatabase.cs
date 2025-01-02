@@ -1,13 +1,9 @@
 ﻿using GameActivity.Models;
 using Playnite.SDK;
 using Playnite.SDK.Models;
-using CommonPluginsShared.Collections;
 using System;
 using System.Collections.Generic;
-using CommonPlayniteShared.Common;
-using CommonPlayniteShared.Converters;
 using System.Globalization;
-using CommonPluginsShared;
 using System.IO;
 using System.Linq;
 using System.Diagnostics;
