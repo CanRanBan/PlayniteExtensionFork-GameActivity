@@ -133,7 +133,6 @@
       <DependentUpon>TransfertData.xaml</DependentUpon>
     </Compile>
     <Compile Include="Services\ActivityDatabase.cs" />
-    <Compile Include="Services\PerfCounter.cs" />
     <Compile Include="Views\GameActivityAddTime.xaml.cs">
       <DependentUpon>GameActivityAddTime.xaml</DependentUpon>
     </Compile>
