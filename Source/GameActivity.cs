@@ -9,7 +9,6 @@ using System.Collections.Generic;
 using System.Windows.Controls;
 using System.Timers;
 using System.Diagnostics;
-using MSIAfterburnerNET.HM.Interop;
 using System.Windows;
 using Playnite.SDK.Events;
 using GameActivity.Controls;
