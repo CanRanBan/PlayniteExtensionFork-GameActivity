@@ -323,9 +323,6 @@
     <PackageReference Include="morelinq">
       <Version>3.3.2</Version>
     </PackageReference>
-    <PackageReference Include="MSIAfterburnerNET.HM">
-      <Version>1.0.7</Version>
-    </PackageReference>
     <PackageReference Include="PlayniteSDK">
       <Version>6.9.0</Version>
     </PackageReference>
