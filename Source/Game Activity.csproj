@@ -43,10 +43,6 @@
     <Reference Include="akr.WPF.Controls.ColorPicker">
       <HintPath>..\include\playnite-plugincommon\CommonPluginsResources\Resources\akr.WPF.Controls.ColorPicker.dll</HintPath>
     </Reference>
-    <Reference Include="OpenHardwareMonitorLib, Version=0.9.5.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Resources\OpenHardwareMonitorLib.dll</HintPath>
-    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
