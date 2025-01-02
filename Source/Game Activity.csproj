@@ -88,7 +88,6 @@
     <Compile Include="Models\GameActivities.cs" />
     <Compile Include="Models\GameActivitiesCollection.cs" />
     <Compile Include="Models\ListActivities.cs" />
-    <Compile Include="Models\QuickSearchItemSource.cs" />
     <Compile Include="Models\RunningActivity.cs" />
     <Compile Include="Models\StoreColor.cs" />
     <Compile Include="Models\WarningData.cs" />
@@ -301,11 +300,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\chart-646.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\command-line.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
