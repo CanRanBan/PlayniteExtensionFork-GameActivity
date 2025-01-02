@@ -19,7 +19,6 @@ using GameActivity.Views;
 using System.Threading.Tasks;
 using System.Windows.Media;
 using System.Threading;
-using QuickSearch.SearchItems;
 using MoreLinq;
 
 namespace GameActivity
